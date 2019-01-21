@@ -46,3 +46,16 @@ document.write("<br>");
 document.write(calBox(2,4,5)[0]);
 document.write("<br>");
 document.write(calBox(2,4,5)[1]);
+
+
+
+
+try {
+ var person = prompts("Please enter your name", "Harry Potter");
+ document.getElementById("message").innerHTML ="Hello " + person + "! How are you today?";
+}
+catch(err) {
+ alert("An error has occurred...The <prompts> must be fixed!");
+}
+
+
