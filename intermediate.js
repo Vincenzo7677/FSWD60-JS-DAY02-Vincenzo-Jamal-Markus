@@ -4,3 +4,16 @@ function firstUpper(my_string){
 }
 
 document.write(firstUpper("this is the text."));
+   
+   // Average Grade
+   function averageGrade(num1,num2,num3){
+   	var sum= num1+num2+num3;
+	var average=num1+num2+num3/3;
+	var result=[sum,average];
+	return result;
+}
+document.write("<br>");
+document.write(averageGrade(2,4,5)[0]);
+document.write("<br>");
+document.write(averageGrade(2,4,5)[1]);
+
