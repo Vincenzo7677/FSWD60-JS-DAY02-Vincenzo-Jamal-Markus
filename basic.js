@@ -27,3 +27,11 @@ function ageCalculator2(birthyear){
 }
 ageCalculator2(1977); //value "birthyear"
 
+
+function degToRad(var_degrees){
+	var radian = var_degrees * (Math.PI / 180); // formula was given in example ... calculate the radian from degrees
+	document.write("<br>"+radian); // show the result
+
+}
+
+degToRad(90);
