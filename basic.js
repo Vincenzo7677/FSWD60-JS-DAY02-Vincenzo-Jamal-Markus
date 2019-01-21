@@ -11,8 +11,19 @@ function crystalGazer(numOfChildren, partnersName, geographicLocation, jobTitle)
 function ageCalculator(birthyear, currentyear){
  var age=currentyear-birthyear;
  var age2=age-1;                     // -1 because we don't know the birth month
- document.write("You are either " + age + " or " + age2);
+ document.write("<br>You are either " + age + " or " + age2);
 
 
 }
 ageCalculator(1988,2019);
+
+
+function ageCalculator2(birthyear){
+	var age = new Date(); //set new date to use the date methods
+	var age1 = age.getFullYear(); //get full year f.e.to get the current year
+	var age3 = age1-birthyear; // calculate the maximum age
+	var age4 = age3-1; // calculate minimum age
+	document.write("<br>You are either " + age3 + " or " + age4);
+}
+ageCalculator2(1977); //value "birthyear"
+
