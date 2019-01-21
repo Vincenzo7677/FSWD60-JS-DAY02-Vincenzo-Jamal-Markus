@@ -26,7 +26,8 @@ function ageCalculator2(birthyear){
 	document.write("<br>You are either " + age3 + " or " + age4);
 }
 ageCalculator2(1977); //value "birthyear"
-
+ 
+ // Basic Exercise 4
 
 function degToRad(var_degrees){
 	var radian = var_degrees * (Math.PI / 180); // formula was given in example ... calculate the radian from degrees
@@ -35,3 +36,13 @@ function degToRad(var_degrees){
 }
 
 degToRad(90);
+function calBox(width, height, depth){
+	var boxArea= width *height;
+	var boxvolume=width * height *depth;
+	var result=[boxArea, boxvolume];
+	return result;
+}
+document.write("<br>");
+document.write(calBox(2,4,5)[0]);
+document.write("<br>");
+document.write(calBox(2,4,5)[1]);
