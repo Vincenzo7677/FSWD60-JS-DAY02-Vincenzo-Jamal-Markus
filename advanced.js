@@ -9,12 +9,10 @@ function timeConvert(my_minutes){
 
 document.write(timeConvert(400));
    
-  var anon = (function(userdate){
-  var date1 = new Date();
-  date1=userdate;
-  date1.setDate(date1.getDate()-1);
-  return date1;
+   (function(userdate){
+	var date = new Date(userdate);
+	date.setDate(date.getDate() - 1);
+	document.write("<br>"+String(date).substring(0,15));
+	 }("Feb 11, 2017"))
 
-
-  }());
-  document.write(anon("Feb 23, 2017"));
+ // document.write(anon("Feb 23, 2017"));
