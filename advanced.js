@@ -16,3 +16,18 @@ document.write(timeConvert(400));
 	 }("Feb 11, 2017"))
 
  // document.write(anon("Feb 23, 2017"));
+
+
+
+
+    (function(){
+ 		
+ 		dec = Math.floor((Math.random() * 65534) + 1);
+
+ 
+ 		ret_string = '#22' + (dec+0x10000).toString(16).substr(-4).toUpperCase();
+
+ 		document.body.bgColor =ret_string;
+
+ 	 }())
+
