@@ -3,7 +3,7 @@ function firstUpper(my_string){
 
 }
 
-document.write(firstUpper("this is the text."));
+document.write(firstUpper("i am a web depeloper."));
    
    // Average Grade
    function averageGrade(num1,num2,num3){
