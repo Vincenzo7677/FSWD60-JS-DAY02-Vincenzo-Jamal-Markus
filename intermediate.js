@@ -8,7 +8,7 @@ document.write(firstUpper("this is the text."));
    // Average Grade
    function averageGrade(num1,num2,num3){
    	var sum= num1+num2+num3;
-	var average=num1+num2+num3/3;
+	var average=sum/3;
 	var result=[sum,average];
 	return result;
 }
